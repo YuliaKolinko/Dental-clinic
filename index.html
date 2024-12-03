@@ -16,7 +16,7 @@
     <header>
       <div class="container header-cont">
         <nav>
-          <a href="./index.html">
+          <a class="logo header-logo" href="./index.html">
             <svg width="163" height="59">
               <use href="./images/logo/icons.svg#icon-header-logo-1"></use>
             </svg>
@@ -30,16 +30,19 @@
         </nav>
         <ul>
           <li>
-        <button type="button" class="btn">
-          <svg class="icon-btn" width="17" height="17">
-            <use href="./images/logo/icons.svg#icon-moon"></use>
-          </svg>
-        </button>
-        </li>
-        <li><button>En</button></li>
-        <li>
-        <a href="tel:+380983377477">+38 (098) 33-77-4-77</a></li>
-        <li><button type="button" class="btn-long">Записатися на прийом</button></li>
+            <button type="button" class="btn">
+              <svg class="icon-btn" width="17" height="17">
+                <use href="./images/logo/icons.svg#icon-moon"></use>
+              </svg>
+            </button>
+          </li>
+          <li><button>En</button></li>
+          <li>
+            <a href="tel:+380983377477">+38 (098) 33-77-4-77</a>
+          </li>
+          <li>
+            <button type="button" class="btn-long">Записатися на прийом</button>
+          </li>
         </ul>
       </div>
       <!-- mobile menu -->
@@ -53,32 +56,175 @@
         </div>
       </div>
     </header>
-    <!-- zero -->
-     <section class="zero">
-<div class="container">
-<h1 class="zero-title">Стоматологія<br><span>приємних емоцій.</span></h1>
-</div>
-     </section>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Стоматологія<br /><span>приємних емоцій.</span>
+          </h1>
+        </div>
+      </section>
+      <!-- About us -->
+      <section class="section-about-us container">
+        <h4 class="section-name-subtitle">Про нас</h4>
+        <h2 class="section-title">
+          Стоматологія, що дарує приємні емоціі,
+          <span class="section-title-accent">а якість — як аксіома.</span>
+        </h2>
+        <p class="section-paragraf">
+          Досвідчена команда FeloniuK Clinic проводить лікування та профілактику
+          усіх проблем щелепно-лицевої ділянки. Сучасно орієнтований підхід,
+          багатопрофільний аналіз та найновіше обладнання дозволяє реалізувати
+          європейські протоколи із якісним довготривалим прогнозом.
+        </p>
+        <button class="btn about-us-button" type="button">
+          Детальніше про нас
+          <svg class="btn-icon arrow-right" width="12" height="8">
+            <use href="./images/logo/arrow-write.svg"></use>
+          </svg>
+        </button>
+      </section>
+      <!-- Section reviews -->
+      <section class="section-reviews container">
+        <h3 class="section-h3-title">
+          <span class="section-title-accent">Емоції</span> людей, які
+          скористалися нашими послугами
+        </h3>
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <img
+              srcset="./images/mobile images/reviews/Review1@x1mobile.jpg 1x, ./images/mobile images/reviews/Review1@x2mobile.jpg 2x"
+              src="./images/mobile images/reviews/Review1@x1mobile.jpg"
+              alt="procedure in the clinic"
+              width="134"
+              height="260"
+            />
+            <p class="reviews-items-paragraf">@muzika_vira</p>
+          </li>
+          <li class="reviews-item">
+            <img
+              srcset="./images/mobile images/reviews/Review2@x1mobile.jpg 1x, ./images/mobile images/reviews/Review2@x2mobile.jpg 2x"
+              src="./images/mobile images/reviews/Review2@x1mobile.jpg"
+              alt="staff review"
+              width="134"
+              height="260"
+            />
+            <p class="reviews-items-paragraf">@muzika_vira</p>
+          </li>
+          <li class="reviews-item">
+            <img
+              srcset="/images/mobile images/reviews/Cropped@x1mobile 1x .jpg, ./images/mobile images/reviews/Cropped@x2mobile (2).jpg 2x"
+              src="/images/mobile images/reviews/Cropped@x1mobile .jpg"
+              alt="cropped photo"
+              width="134"
+              height="260"
+            />
+            <p class="reviews-items-paragraf">@mu</p>
+          </li>
+        </ul>
+        <h4 class="section-about-us-cursive-title">
+          Наш Instagram — @feloniukclinic
+        </h4>
+        <ul>
+          <li>
+            <img
+              srcset="./images/mobile images/Our instagramm/Vinirs@x1.jpg 1x, ./images/mobile images/Our instagramm/Vinirs@2xMobile.jpg 2x"
+              src="./images/mobile images/Our instagramm/Vinirs@x1.jpg"
+              alt="vinirs"
+              width="130"
+              height="130"
+            />
+          </li>
+          <li>
+            <img
+              srcset="./images/mobile images/Our instagramm/Вініри@11Mobile.jpg 1x, ./images/mobile images/Our instagramm/Вініри@2xMobile.jpg 2x"
+              src="./images/mobile images/Our instagramm/Вініри@11Mobile.jpg"
+              alt="Vinirs text"
+              width="130"
+              height="130"
+            />
+          </li>
+          <li>
+            <img
+              srcset="./images/mobile images/Our instagramm/Rectangle 3@1xMobile.jpg 1x, ./images/mobile images/Our instagramm/Rectangle 3@2xMobile.jpg 2x"
+              src="./images/mobile images/Our instagramm/Rectangle 3@1xMobile.jpg"
+              alt="cropped photo"
+              width="130"
+              height="130"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <h3 class="footer-h3-title">
+        Завітайте <span class="footer-accent-title">до нас.</span>
+      </h3>
+      <ul class="footer-contscts-list">
+        <li class="footer-contscts-items">
+          <h5>Часи роботи</h5>
+          <time datetime="Пн – Пт: 9:00 – 20:00">Пн – Пт: 9:00 – 20:00</time>
+          <time datetime="Сб – Нд: 10:00 – 18:00">Сб – Нд: 10:00 – 18:00</time>
+        </li>
+        <li class="footer-contscts-items">
+          <h5>Контакти</h5>
+          <contacts>
+            <a class="footer-contacts" href="tel:+380983377577"
+              >+38 (098) 33-77-5-77</a
+            >
+          </contacts>
+        </li>
+        <li class="footer-contscts-items">
+          <h5>Адреса</h5>
+          <address>м. Хмельницький, вул. Зарічанська, 11е</address>
+        </li>
+      </ul>
+      <button type="button">
+        Дивитись в Google Maps
+        <svg class="btn-icon arrow-right" width="12" height="8">
+          <use href="./images/logo/arrow-right.svg"></use>
+        </svg>
+      </button>
+      <h5>Розділи</h5>
+      <svg class="" width="12" height="7">
+        <use href="./images/logo/arrow-down.svg"></use>
+      </svg>
+      <h5>Послуги</h5>
+      <svg class="" width="12" height="7">
+        <use href="./images/logo/arrow-down.svg"></use>
+      </svg>
+      <a class="logo footer-logo" href="./index.html">
+        <svg width="163" height="59">
+          <use href="./images/logo/icons.svg#icon-header-logo-1"></use>
+        </svg>
+      </a>
+      <ul>
+        <li>
+          <a href=""></a>
+          <button type="button" class="btn">
+            <svg class="icon-btn" width="15" height="15">
+              <use href="./images/logo/icons.svg#icon-moon"></use>
+            </svg>
+          </button>
+        </li>
+        <li><button class="btn" type="button">En</button></li>
+        <li>
+          <a href="https://www.instagram.com/"
+            ><svg class="icon" width="15" height="15">
+              <use href="./images/logo/instagram.svg"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/">
+            <svg class="icon" width="15" height="15">
+              <use href="./images/logo/facebook.svg"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
-<!-- About us -->
-<section>
-  <h4 class="section-name-subtitle">Про нас</h4>
-  <h2 class="section-title">
-    Стоматологія, що дарує приємні емоціі<span class="section-title-accent"
-      >а якість — як аксіома.</span
-    >
-  </h2>
-  <p class="section-paragraf">
-    Досвідчена команда FeloniuK Clinic проводить лікування та профілактику усіх
-    проблем щелепно-лицевої ділянки. Сучасно орієнтований підхід,
-    багатопрофільний аналіз та найновіше обладнання дозволяє реалізувати
-    європейські протоколи із якісним довготривалим прогнозом.
-  </p>
-  <button class="btn about-us-button" type="button">
-    Детальніше про нас
-    <svg class="btn-icon arrow-right" width="12" height="8">
-      <use href="./images/logo/arrow-write.svg"></use>
-    </svg>
-  </button>
-</section>
