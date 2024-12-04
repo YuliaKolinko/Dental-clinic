@@ -4,6 +4,7 @@ body {
   font-family: "Inter" serif;
   background-color: #fff;
   color: #171717;
+  font-weight: 400;
 }
 h1,
 h2,
@@ -36,7 +37,7 @@ a {
   text-decoration: none;
 }
 .container {
-  max-width: 280px;
+  max-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -54,3 +55,142 @@ a {
 }
 /* #endregion */
 /* header */
+/* #region Section medical clinics styles */
+.resume-wrapper {
+}
+.section-title-small {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.23;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-title-accent {
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.23;
+  color: #171717;
+}
+.clinic-doktors-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.38;
+  margin-bottom: 2px;
+}
+.medical-clinics-section {
+  padding-bottom: 30px;
+}
+.container {
+}
+.medical-clinics-list {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.links-text {
+  margin-top: 10px;
+}
+.medical-clinics-item {
+}
+
+.specialty-of-doctors {
+  font-size: 13px;
+  line-height: 1.38462;
+}
+.collage-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+/* #endregion */
+/* #region About us style */
+.section-about-us {
+  padding-bottom: 35px;
+}
+.container {
+}
+.section-name-subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.38;
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+.section-title-about-us,
+.section-title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  width: 285px;
+}
+.section-title {
+}
+.section-title-accent-about-us .section-title-accent {
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+  width: 285px;
+  text-align: left;
+}
+.section-paragraf {
+  font-size: 13px;
+  line-height: 1.62;
+  color: #666;
+  margin-bottom: 25px;
+}
+.btn {
+  border-radius: 50px;
+  padding: 8px 15px;
+  max-width: 185px;
+  height: 34px;
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.38;
+}
+.about-us-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-icon {
+  fill: #fff;
+  margin-right: 15px;
+}
+.arrow-right {
+}
+/* #endregion */
+/* #region Section reviews styles */
+.section-reviews {
+}
+.container {
+}
+.section-title {
+}
+.section-title-accent {
+}
+.roundabout-wrapper {
+}
+.reviews-list {
+  display: flex;
+}
+.reviews-item {
+  max-width: 134px;
+  height: 284px;
+}
+.reviews-items-paragraf {
+}
+.section-about-us-cursive-title {
+}
+
+/* #endregion */
