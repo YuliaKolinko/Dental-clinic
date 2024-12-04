@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,600;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -62,17 +62,28 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
-            Стоматологія<br /><span class="emocion-italic">приємних емоцій.</span>
+            Стоматологія<br /><span class="emocion-italic"
+              >приємних емоцій.</span
+            >
           </h1>
-          <p class="hero-text">Досвідчена команда FeloniuK Clinic проводить лікування та профілактику усіх проблем щелепно-лицевої ділянки</p>
-          <button>Записатися на прийом <svg width="25" height="24">
-            <use href="./images/logo/icons.svg#icon-arrow-narrow-right"></use>
-          </svg></button>
+          <p class="hero-text">
+            Досвідчена команда FeloniuK Clinic проводить лікування та
+            профілактику усіх проблем щелепно-лицевої ділянки
+          </p>
+          <button>
+            Записатися на прийом
+            <svg width="25" height="24">
+              <use href="./images/logo/icons.svg#icon-arrow-narrow-right"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <!-- section can you help -->
       <section class="help">
-        <h2 class="help-title">Чим ми можемо Вам <span class="help-italic">допомогти?</span>допомогти?</h2>
+        <h2 class="help-title">
+          Чим ми можемо Вам
+          <span class="help-italic">допомогти?</span>допомогти?
+        </h2>
         <ul class="help-list">
           <li class="help-item">
             <h3 class="h-title">Болить зуб</h3>
@@ -113,10 +124,12 @@
           <li><a href="#">Відбілювання</a></li>
           <li><a href="#">Брекети та елайнери</a></li>
         </ol>
-
       </section>
       <!-- Section medical clinics -->
       <section class="section medical-clinics-section">
+        <h2 class="section-title">
+          <span class="section-title-accent">Лікарі</span> кліники
+        </h2>
         <ul class="medical-clinics-list">
           <li class="medical-clinics-item">
             <img
@@ -178,7 +191,7 @@
       </section>
       <!-- About us -->
       <section class="section-about-us container">
-        <h4 class="section-name-subtitle">Про нас</h4>
+        <p class="section-name-subtitle">Про нас</p>
         <h2 class="section-title">
           Стоматологія, що дарує приємні емоціі,
           <span class="section-title-accent">а якість — як аксіома.</span>
@@ -234,9 +247,9 @@
             <p class="reviews-items-paragraf">@mu</p>
           </li>
         </ul>
-        <h4 class="section-about-us-cursive-title">
+        <p class="section-about-us-cursive-title">
           Наш Instagram — @feloniukclinic
-        </h4>
+        </p>
         <ul>
           <li>
             <img
@@ -275,12 +288,12 @@
       </h3>
       <ul class="footer-contscts-list">
         <li class="footer-contscts-items">
-          <h5>Часи роботи</h5>
+          <h4>Часи роботи</h4>
           <time datetime="Пн – Пт: 9:00 – 20:00">Пн – Пт: 9:00 – 20:00</time>
           <time datetime="Сб – Нд: 10:00 – 18:00">Сб – Нд: 10:00 – 18:00</time>
         </li>
         <li class="footer-contscts-items">
-          <h5>Контакти</h5>
+          <h4>Контакти</h4>
           <contacts>
             <a class="footer-contacts" href="tel:+380983377577"
               >+38 (098) 33-77-5-77</a
@@ -288,7 +301,7 @@
           </contacts>
         </li>
         <li class="footer-contscts-items">
-          <h5>Адреса</h5>
+          <h4>Адреса</h4>
           <address>м. Хмельницький, вул. Зарічанська, 11е</address>
         </li>
       </ul>
@@ -298,11 +311,11 @@
           <use href="./images/logo/arrow-right.svg"></use>
         </svg>
       </button>
-      <h5>Розділи</h5>
+      <h4>Розділи</h4>
       <svg class="" width="12" height="7">
         <use href="./images/logo/arrow-down.svg"></use>
       </svg>
-      <h5>Послуги</h5>
+      <h4>Послуги</h4>
       <svg class="" width="12" height="7">
         <use href="./images/logo/arrow-down.svg"></use>
       </svg>
@@ -337,5 +350,49 @@
         </li>
       </ul>
     </footer>
+    <!-- Modal -->
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <button class="btn-close" type="button"></button>
+        <h5 class="modal-title">Запис на прийом</h5>
+        <p class="modal-subtitle">
+          Будь ласка, залиште нам Ваш номер — і ми передзвонимо
+        </p>
+        <form class="modal-form" name="review">
+          <div class="input-wrapper">
+            <label for="user-name">Ваше ім’я</label>
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Введіть ваше ім’я"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="input-phone">Ваш номер телефону</label
+            ><input
+              class="form-input"
+              type="tel"
+              name="phone"
+              id="input-phone"
+              placeholder="000-00-00-000"
+            />
+            <button class="bth-dropdown" type="button">
+              UKR +38
+              <svg class="" width="15" height="15">
+                <use href="./images/logo/arrow-down.svg"></use>
+              </svg>
+              <ul class="bth-dropdown-list">
+                <li class="bth-dropdown-item"></li>
+                <li class="bth-dropdown-item"></li>
+                <li class="bth-dropdown-item"></li>
+              </ul>
+            </button>
+          </div>
+        </form>
+        <button class="btn modal-btn" type="submit">Надіслати</button>
+      </div>
+    </div>
   </body>
 </html>

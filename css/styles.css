@@ -1,3 +1,5 @@
+/* #region Common stiles */
+
 body {
   font-family: "Inter" serif;
   background-color: #fff;
@@ -19,7 +21,7 @@ li {
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 button {
@@ -50,4 +52,5 @@ a {
 }
 .section {
 }
+/* #endregion */
 /* header */
