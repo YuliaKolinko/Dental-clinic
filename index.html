@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <div class="container header-cont">
         <nav>
           <a class="logo header-logo" href="./index.html">
@@ -22,11 +22,11 @@
               <use href="./images/logo/icons.svg#icon-header-logo-1"></use>
             </svg>
           </a>
-          <ul>
-            <li><a href="#">Послуги</a></li>
-            <li><a href="#">Про нас</a></li>
-            <li><a href="#">Відгуки</a></li>
-            <li><a href="#">Контакти</a></li>
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">Послуги</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Відгуки</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
         <ul>
@@ -37,23 +37,41 @@
               </svg>
             </button>
           </li>
-          <li><button>En</button></li>
-          <li>
-            <a href="tel:+380983377477">+38 (098) 33-77-4-77</a>
+          <li><button class="btn-laguage">En</button></li>
+           <button class="btn-contacts">Подзвонити</button>
+          <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+380983377477">+38 (098) 33-77-4-77</a>
           </li>
           <li>
-            <button type="button" class="btn-long">Записатися на прийом</button>
+            <button class="btn-long" type="button">
+              Записатися на прийом
+              <svg width="24" height="25">
+                <use href="./images/logo/icons.svg#icon-arrow-narrow-right"></use>
+              </svg>
+            </button>
           </li>
+          </ul>
         </ul>
+        <button type="button" class="burger-btn">
+            <svg width="19" height="15">
+               <use href="./images/logo/icons.svg#icon-menu-2"></use>
+            </svg>
+        </button>
       </div>
       <!-- mobile menu -->
       <div class="mobile-menu">
         <div class="container menu-container">
-          <button type="button" class="mobile-menu-btn">
-            <svg width="19" height="15">
-              <use href="./images/logo/icons.svg#icon-menu-2"></use>
-            </svg>
-          </button>
+          <p class="mobile-menu-text">Меню</p>
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Послуги</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Про нас</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Лікарі</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Відгуки</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">FAQ</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Блог</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Контакти</a></li>
+          </ul>
         </div>
       </div>
     </header>
