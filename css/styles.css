@@ -138,8 +138,96 @@ height: 40px;
 background-color: #171717;
 }
 }
+/* hero mobile*/
+.hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0.35)),
+  url("../images/logo/Rectangle 6@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ max-width: 320px;
+ height: 550px;
+}
+/* hero descktop */
+@media screen and (min-width: 1340px){
+  .hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0.35)),
+  url("../images/logo/Rectangle 6@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ max-width: 1440px;
+ height: 800px;
+ margin-bottom: 75px;
+}
+}
+
+/* help mobile */
+.help{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 30px;
+}
+.help-title{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 45px;
+font-weight: 500;
+font-size: 22px;
+line-height: 1.23;
+color: #171717;
+}
+.help-italic{
+font-family: "Merriweather", sans-serif;
+font-style: italic;
+font-weight: 400;
+} 
+.help-list{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 10px;
+max-width:280px ;
+}
+.h-title{
+font-weight: 500;
+font-size: 18px;
+line-height: 1.17;
+color: #171717;
+}
+.help-link{
+font-weight: 400;
+font-size: 13px;
+line-height: 1.38;
+color: #666;
+}
+/* help descktop */
+@media screen and(min-width: 1340px){
+  .help{
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 15px;
+}
+.help-title{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 5px;
+}
+.help-title-text{
+}
+.help-italic{
+  line-height: 1.28;
+}
+}
+
+
+
 /* #endregion */
-/* header */
 /* #region Section medical clinics styles */
 .resume-wrapper {
 }
@@ -148,7 +236,6 @@ background-color: #171717;
   font-size: 22px;
   line-height: 1.23;
   text-align: center;
-  margin-bottom: 20px;
 }
 .section-title-accent {
   font-family: "Merriweather", sans-serif;
