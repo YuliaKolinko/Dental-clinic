@@ -112,10 +112,19 @@ color: #171717;
   .btn-contacts{
     display: none;
   }
+  .mobile-menu{
+    display: none;
+  }
+  .header-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
   .nav-list{
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 flex-direction: row;
 gap: 8px;
   }
@@ -168,7 +177,7 @@ justify-content: flex-start;
 flex-direction: column;
 gap: 30px;
 }
-.help-title{
+.help-title-text{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
