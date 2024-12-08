@@ -121,6 +121,18 @@ color: #171717;
     justify-content: space-between;
     gap: 20px;
   }
+  .btn{
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 8px;
+border: 1px solid #ddd;
+border-radius: 100px;
+padding: 8px 15px;
+width: 47px;
+height: 40px;
+  }
   .nav-list{
 display: flex;
 align-items: center;
@@ -166,6 +178,54 @@ background-color: #171717;
  max-width: 1440px;
  height: 800px;
  margin-bottom: 75px;
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+}
+.hero-title{
+font-weight: 500;
+font-size: 64px;
+line-height: 1.2;
+text-align: center;
+color: #fff;
+}
+.hero-text-italic{
+font-family: "Merriweather", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 64px;
+line-height: 125%;
+text-align: center;
+color: #fff;
+}
+.hero-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+text-align: center;
+color: #fff;
+}
+.btn-long-wiht{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 8px;  
+border-radius: 100px;
+border: none;
+padding: 8px 20px;
+width: 252px;
+height: 42px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+color: #171717;
+}
+.hero-icon{
+  fill: #000;
 }
 }
 
