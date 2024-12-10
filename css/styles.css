@@ -5,6 +5,7 @@ body {
   background-color: #fff;
   color: #171717;
   font-weight: 400;
+  margin: 0;
 }
 h1,
 h2,
@@ -392,6 +393,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  width: calc((100% - 20px) / 2);
 }
 /* #endregion */
 /* #region About us style */
@@ -499,12 +501,39 @@ a {
 .footer-contacts-wrapper {
 }
 .footer-h3-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.23;
+  color: #fff;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 .footer-accent-title {
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.footer-uppercase-text {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.38;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.time-box {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  margin-bottom: 30px;
 }
 .footer-contscts-list {
 }
 .footer-contscts-items {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.38;
+  color: #888;
 }
 .footer-contacts {
 }
